@@ -35,7 +35,7 @@ function App() {
         );
         setFilteredCountries(filtered);
       }
-    }, 500);
+    }, 0);
     setDebounceTimer(timer);
   }, [search]);
 
