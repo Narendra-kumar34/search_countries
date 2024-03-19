@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.inputBox {
+  padding: 10px;
+  margin: 20px;
+  width: 25%;
+}

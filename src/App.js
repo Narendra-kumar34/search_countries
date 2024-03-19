@@ -69,6 +69,8 @@ function App() {
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        placeholder="Search for Country"
+        className="inputBox"
       />
       <div style={container}>
         {filteredCountries.map((country) => (
